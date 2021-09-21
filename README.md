@@ -10,6 +10,6 @@ bash install-ngrok.sh
 **or,**
 
 ```
-pkg in wget -y && https://raw.githubusercontent.com/Learn-Termux/termux-ngrok/main/install-ngrok.sh && bash install-ngrok.sh
+pkg in wget -y && wget https://raw.githubusercontent.com/Learn-Termux/termux-ngrok/main/install-ngrok.sh && bash install-ngrok.sh
 ```
 
