@@ -3,7 +3,7 @@
 ### Installing Ngrok on Termuux ...
 
 Telegram : [Click here to join](https://t.me/termux_beginners)
-Youtube  : [Click here] (https://youtube.com/channel/UCBckc68X0TTRZqpuEqJcs1w)
+Youtube  : [Click here](https://youtube.com/channel/UCBckc68X0TTRZqpuEqJcs1w)
 
 ```
 pkg install git -y
