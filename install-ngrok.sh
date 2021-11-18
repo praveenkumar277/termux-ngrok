@@ -41,13 +41,11 @@ wget https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-linux-${arch}.zip -O ngro
 
 unzip ngrok.zip
 rm ngrok.zip
-ln -s ngrok /data/data/com.termux/files/usr/bin/
-
 
 echo
 echo -e "$green Sucessfully Installed ..."
 
-echo -e "$magneta login : ngrok authtoken <$yellow Your Authtoken $magneta >"
+echo -e "$magneta login : ./ngrok authtoken <$yellow Your Authtoken $magneta >"
 echo -e "$reset"
 
 
