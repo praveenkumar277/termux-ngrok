@@ -14,6 +14,7 @@ reset='\033[0m'
 #
 #
 rm -rf $PREFIX/bin/ngrok
+rm -rf $HOME/ngrok
 
 pkg install wget proot resolv-conf -y
 
@@ -40,7 +41,7 @@ wget https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-linux-${arch}.zip -O ngro
 
 unzip ngrok.zip
 rm ngrok.zip
-mv ngrok $PREFIX/bin/
+ln -s ngrok /data/data/com.termux/files/usr/bin/
 
 
 echo
