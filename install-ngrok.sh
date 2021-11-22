@@ -41,6 +41,7 @@ wget https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-linux-${arch}.zip -O ngro
 
 unzip ngrok.zip
 rm ngrok.zip
+mv ngrok $HOME
 
 echo
 echo -e "$green Sucessfully Installed ..."
